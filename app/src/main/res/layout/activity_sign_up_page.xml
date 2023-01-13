@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration.SignUpPage"
+    >
+
+    <EditText
+        android:id="@+id/signUp_emailId"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/edittext"
+        android:hint="Email Id"
+        android:paddingLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/edittext"
+        android:hint="Password"
+        android:paddingLeft="5dp"
+        android:textSize="16dp"
+        android:id="@+id/signUp_pass"
+        />
+
+    <Button
+        android:id="@+id/signUp_btn"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#3A72C5"
+        android:text="Sign Up"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/allura"
+        android:text="Health Care"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="35dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="____________________OR____________________"
+        android:textAlignment="center"
+        android:textSize="18dp"
+
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/g_signUp"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/edit_signin" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        android:text="Already Have An Account ! "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

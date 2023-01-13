@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informationofuser.AccountType">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/acme"
+        android:text="Types of Account"
+        android:textAlignment="center"
+        android:textColor="#061365"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the type of your account,
+                              be careful to change it is impossible"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_marginTop="70dp"
+
+        />
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:checkable="true"
+        android:layout_marginTop="150dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/docterId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardlayout">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/cardlayout"
+                android:src="@drawable/docter" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/acme"
+                android:text="I"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/acme"
+                android:text="am a Docter"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/acme"
+                android:text="The easiest way to reach your patient face to face"
+                android:textAlignment="center"
+                android:textSize="14dp"
+
+                />
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:checkable="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/patientId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardlayout"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/cardlayout"
+                android:src="@drawable/patient" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/acme"
+                android:text="I"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/acme"
+                android:text="am a Patient"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="120dp"
+                android:fontFamily="@font/acme"
+                android:text="Find a docter online,access medical record, and more"
+                android:textAlignment="center"
+                android:textSize="14dp"
+
+                />
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="@color/black"
+        android:text="Done"
+        android:id="@+id/btn"
+        android:textColor="@color/white" />
+
+
+
+</RelativeLayout>

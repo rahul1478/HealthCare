@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/chats"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="chats"
+        />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="add"
+        /><item
+    android:id="@+id/med"
+    android:icon="@drawable/ic_baseline_medication_24"
+    android:title="Med"
+    />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_face_24"
+        android:title="Profile"
+        />
+
+
+
+</menu>
